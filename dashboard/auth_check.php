@@ -25,4 +25,13 @@ $fullname = $current_user['fullname'];
 
 
 
+$sql = "SELECT * FROM properties where user_id = '$user_id'order by id desc";
+
+$exe = mysqli_query($conn,$sql);
+
+$myproperies = mysqli_num_rows($exe);
+
+
+
+
 ?>

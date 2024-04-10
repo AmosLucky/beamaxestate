@@ -75,8 +75,8 @@ require "auth_check.php";
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         
-                        <a class="collapse-item" href="">All Properties</a>
-                        <a class="collapse-item" href="">Add property</a>
+                        <a class="collapse-item" href="all_properties.php">All Properties</a>
+                        <a class="collapse-item" href="add_property.php">Add property</a>
                     </div>
                 </div>
             </li>
